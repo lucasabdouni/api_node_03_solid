@@ -2,6 +2,12 @@
 
 GymPass style app.
 
+Docker required - To create the postgress database image, run in the terminal:
+
+docker componse up -d
+
+To run the project it is necessary to create a .env file and fill in the same as the .env.example file
+
 ## RFs (Requisitos functionais)
 
 - [x] Deve ser possível se cadastrar;
